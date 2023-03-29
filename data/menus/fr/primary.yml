@@ -1,12 +1,12 @@
 ---
 title: Menu principal
 items:
-- title: Articles
-  target: "/articles/"
-  kind: page
-  children: []
 - title: Informations
   target: "/informations/"
+  kind: page
+  children: []
+- title: Articles
+  target: "/articles/"
   kind: page
   children: []
 - title: À propos

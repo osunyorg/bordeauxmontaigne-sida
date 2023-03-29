@@ -6,7 +6,7 @@ items:
   kind: page
   children: []
 - title: Informations
-  target: "/iformations/"
+  target: "/informations/"
   kind: page
   children: []
 

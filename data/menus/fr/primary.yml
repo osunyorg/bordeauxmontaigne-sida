@@ -13,12 +13,12 @@ items:
   target: "/devenir-un-allie/"
   kind: page
   children: []
-- title: Actualités
-  target: "/actualites/"
-  kind: page
-  children: []
 - title: À propos
   target: "/a-propos/"
+  kind: page
+  children: []
+- title: Actualités
+  target: "/actualites/"
   kind: page
   children: []
 

@@ -2,8 +2,8 @@
 title: Menu principal
 items:
 - title: Besoin d'en parler
-  target: "/actualites/seropo/"
-  kind: category
+  target: "/sita-besoin-den-parler/"
+  kind: page
   children: []
 - title: Pas l'info
   target: "/actualites/sita-pas-linfo/"

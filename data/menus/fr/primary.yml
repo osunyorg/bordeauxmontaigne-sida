@@ -1,9 +1,9 @@
 ---
 title: Menu principal
 items:
-- title: Sita' besoin d'en parler
-  target: "/sita-besoin-den-parler/"
-  kind: page
+- title: Si t'as
+  target: ''
+  kind: blank
   children: []
 - title: Sita' pas l'info
   target: "/sita-pas-linfo/"

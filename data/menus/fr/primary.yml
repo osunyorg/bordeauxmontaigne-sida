@@ -1,20 +1,20 @@
 ---
 title: Menu principal
 items:
-- title: Actualités
-  target: "/actualites/"
-  kind: page
-  children: []
-- title: À propos
-  target: "/a-propos/"
-  kind: page
-  children: []
 - title: Besoin d'en parler
   target: "/sita-besoin-den-parler/"
   kind: page
   children: []
 - title: Infos pratiques
   target: "/sita-pas-linfo/"
+  kind: page
+  children: []
+- title: Actualités
+  target: "/actualites/"
+  kind: page
+  children: []
+- title: À propos
+  target: "/a-propos/"
   kind: page
   children: []
 

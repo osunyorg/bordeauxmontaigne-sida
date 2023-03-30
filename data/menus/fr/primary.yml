@@ -17,4 +17,8 @@ items:
   target: "/a-propos/"
   kind: page
   children: []
+- title: Devenir un allié
+  target: "/devenir-un-allie/"
+  kind: page
+  children: []
 

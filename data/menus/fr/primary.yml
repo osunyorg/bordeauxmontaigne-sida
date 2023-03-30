@@ -5,7 +5,7 @@ items:
   target: "/sita-besoin-den-parler/"
   kind: page
   children: []
-- title: Pas l'info
+- title: Sita' pas l'info
   target: "/sita-pas-linfo/"
   kind: page
   children: []

@@ -4,7 +4,11 @@ items:
 - title: Si t'as...
   target: ''
   kind: blank
-  children: []
+  children:
+  - title: Besoin d'en parler
+    target: "/sita-besoin-den-parler/"
+    kind: page
+    children: []
 - title: À propos
   target: "/a-propos/"
   kind: page

@@ -9,10 +9,6 @@ items:
   target: "/sita-pas-linfo/"
   kind: page
   children: []
-- title: Un proche dans le besoin
-  target: "/actualites/sita-un-proche-dans-le-besoin/"
-  kind: category
-  children: []
 - title: À propos
   target: "/a-propos/"
   kind: page

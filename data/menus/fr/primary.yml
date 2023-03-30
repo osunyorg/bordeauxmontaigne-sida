@@ -4,11 +4,7 @@ items:
 - title: Si t'as...
   target: ''
   kind: blank
-  children:
-  - title: pas l'info nécessaire
-    target: "/sita-pas-linfo/"
-    kind: page
-    children: []
+  children: []
 - title: À propos
   target: "/a-propos/"
   kind: page

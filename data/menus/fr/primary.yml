@@ -9,4 +9,8 @@ items:
   target: "/a-propos/"
   kind: page
   children: []
+- title: Besoin d'en parler
+  target: "/sita-besoin-den-parler/"
+  kind: page
+  children: []
 

@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: Infos pratiques
+  target: "/sita-besoin-dinfo/"
+  kind: page
+  children: []
 - title: Besoin d'en parler
   target: "/sita-besoin-den-parler/"
   kind: page
@@ -11,10 +15,6 @@ items:
   children: []
 - title: À propos
   target: "/a-propos/"
-  kind: page
-  children: []
-- title: Infos pratiques
-  target: "/sita-besoin-dinfo/"
   kind: page
   children: []
 

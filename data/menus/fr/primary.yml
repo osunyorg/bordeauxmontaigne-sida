@@ -6,8 +6,8 @@ items:
   kind: page
   children: []
 - title: Pas l'info
-  target: "/actualites/sita-pas-linfo/"
-  kind: category
+  target: "/sita-pas-linfo/"
+  kind: page
   children: []
 - title: Un proche dans le besoin
   target: "/actualites/sita-un-proche-dans-le-besoin/"

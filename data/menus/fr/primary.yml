@@ -9,16 +9,16 @@ items:
   target: "/sita-besoin-den-parler/"
   kind: page
   children: []
+- title: Devenir un allié
+  target: "/devenir-un-allie/"
+  kind: page
+  children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
   children: []
 - title: À propos
   target: "/a-propos/"
-  kind: page
-  children: []
-- title: Devenir un allié
-  target: "/devenir-un-allie/"
   kind: page
   children: []
 

@@ -5,6 +5,10 @@ items:
   target: "/actualites/seropo/"
   kind: category
   children: []
+- title: Pas l'info
+  target: "/actualites/sita-pas-linfo/"
+  kind: category
+  children: []
 - title: À propos
   target: "/a-propos/"
   kind: page
@@ -12,10 +16,6 @@ items:
 - title: Actualités
   target: "/actualites/"
   kind: page
-  children: []
-- title: Pas l'info
-  target: "/actualites/sita-pas-linfo/"
-  kind: category
   children: []
 - title: Un proche dans le besoin
   target: "/actualites/sita-un-proche-dans-le-besoin/"

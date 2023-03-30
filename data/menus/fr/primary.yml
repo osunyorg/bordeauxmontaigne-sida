@@ -1,10 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Si t'as...
-  target: ''
-  kind: blank
-  children: []
 - title: À propos
   target: "/a-propos/"
   kind: page

@@ -13,4 +13,8 @@ items:
   target: "/sita-besoin-den-parler/"
   kind: page
   children: []
+- title: Infos pratiques
+  target: "/sita-pas-linfo/"
+  kind: page
+  children: []
 

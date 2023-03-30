@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: Besoin d'en parler
+  target: "/actualites/seropo/"
+  kind: category
+  children: []
 - title: À propos
   target: "/a-propos/"
   kind: page
@@ -8,10 +12,6 @@ items:
 - title: Actualités
   target: "/actualites/"
   kind: page
-  children: []
-- title: Besoin d'en parler
-  target: "/actualites/seropo/"
-  kind: category
   children: []
 - title: Pas l'info
   target: "/actualites/sita-pas-linfo/"

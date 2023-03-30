@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: Besoin d'en parler
+- title: Sita' besoin d'en parler
   target: "/sita-besoin-den-parler/"
   kind: page
   children: []

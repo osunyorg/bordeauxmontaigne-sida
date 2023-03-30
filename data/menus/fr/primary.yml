@@ -13,4 +13,8 @@ items:
   target: "/a-propos/"
   kind: page
   children: []
+- title: Infos pratiques
+  target: "/sita-besoin-dinfo/"
+  kind: page
+  children: []
 

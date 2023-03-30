@@ -6,7 +6,7 @@ items:
   kind: page
   children: []
 - title: Pas l'info
-  target: "/sitapaslinfo/"
+  target: "/sita-pas-linfo/"
   kind: page
   children: []
 - title: À propos

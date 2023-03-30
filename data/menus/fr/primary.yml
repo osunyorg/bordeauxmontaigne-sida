@@ -17,4 +17,8 @@ items:
   target: "/actualites/sita-pas-linfo/"
   kind: category
   children: []
+- title: Un proche dans le besoin
+  target: "/actualites/sita-un-proche-dans-le-besoin/"
+  kind: category
+  children: []
 

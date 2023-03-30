@@ -1,24 +1,20 @@
 ---
 title: Menu principal
 items:
+- title: Infos pratiques
+  target: "/sita-besoin-dinfo/"
+  kind: page
+  children: []
 - title: Besoin d'en parler
   target: "/sita-besoin-den-parler/"
-  kind: page
-  children: []
-- title: Pas l'info
-  target: "/sita-pas-linfo/"
-  kind: page
-  children: []
-- title: À propos
-  target: "/a-propos/"
   kind: page
   children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
   children: []
-- title: Test
-  target: "/test/"
+- title: À propos
+  target: "/a-propos/"
   kind: page
   children: []
 

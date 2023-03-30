@@ -5,10 +5,6 @@ items:
   target: ''
   kind: blank
   children:
-  - title: besoin d'en parler
-    target: "/sita-besoin-den-parler/"
-    kind: page
-    children: []
   - title: pas l'info nécessaire
     target: "/sita-pas-linfo/"
     kind: page

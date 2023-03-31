@@ -9,7 +9,7 @@ items:
   target: "/sita-besoin-den-parler/"
   kind: page
   children: []
-- title: Devenir un allié
+- title: Je suis un proche
   target: "/devenir-un-allie/"
   kind: page
   children: []

@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Comprendre ce que j'ai
-  target: "/sita-besoin-dinfo/"
+  target: "/comprendre/"
   kind: page
   children: []
 - title: Comment j'en parle

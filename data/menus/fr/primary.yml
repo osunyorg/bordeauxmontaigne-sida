@@ -1,11 +1,11 @@
 ---
 title: Menu principal
 items:
-- title: Infos pratiques
+- title: M'informer
   target: "/sita-besoin-dinfo/"
   kind: page
   children: []
-- title: Besoin d'en parler
+- title: Comment en parler
   target: "/sita-besoin-den-parler/"
   kind: page
   children: []

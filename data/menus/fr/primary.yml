@@ -5,7 +5,7 @@ items:
   target: "/comprendre/"
   kind: page
   children: []
-- title: Comment j'en parle
+- title: Comment j'en parle ?
   target: "/comment-jen-parle/"
   kind: page
   children: []

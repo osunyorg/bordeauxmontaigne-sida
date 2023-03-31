@@ -10,7 +10,7 @@ items:
   kind: page
   children: []
 - title: Je suis un proche
-  target: "/devenir-un-allie/"
+  target: "/je-suis-un-proche/"
   kind: page
   children: []
 - title: À propos

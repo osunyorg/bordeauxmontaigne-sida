@@ -6,7 +6,7 @@ items:
   kind: page
   children: []
 - title: Comment j'en parle
-  target: "/sita-besoin-den-parler/"
+  target: "/comment-jen-parle/"
   kind: page
   children: []
 - title: Je suis un proche

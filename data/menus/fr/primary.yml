@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: Comprendre ma maladie
+- title: Comprendre ce que j'ai
   target: "/sita-besoin-dinfo/"
   kind: page
   children: []

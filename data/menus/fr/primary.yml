@@ -5,7 +5,7 @@ items:
   target: "/sita-besoin-dinfo/"
   kind: page
   children: []
-- title: Comment en parler
+- title: Comment j'en parle
   target: "/sita-besoin-den-parler/"
   kind: page
   children: []

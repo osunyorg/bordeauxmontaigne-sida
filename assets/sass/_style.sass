@@ -1,7 +1,7 @@
 h1
   color: $secondary
-h2 
-  color: $secondary  
+h2
+  color: $secondary
 .lead
   text-align: center
 .block-posts
@@ -28,6 +28,15 @@ nav
           color: black
           font-size: 1.5rem
           font-weight: 400
+
+#block-1
+  .container
+    .block-content
+      .chapter
+        flex-direction: row-reverse
+      .image-portrait
+        margin-right: calc( (100% + 4rem) / 12 * 1 + 4rem) !important
+        margin-left: 0 !important
 
 
 //Media query
@@ -60,7 +69,7 @@ main
             font-weight: 300
             text-align: start
 .hero--with-image
-  padding-bottom: 0 
+  padding-bottom: 0
   .container
     .content
       figure

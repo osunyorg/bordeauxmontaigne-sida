@@ -17,14 +17,6 @@ items:
     target: "/je-suis-un-proche/"
     kind: page
     children: []
-- title: Comment j'en parle ?
-  target: "/comment-jen-parle/"
-  kind: page
-  children: []
-- title: Je suis un proche
-  target: "/je-suis-un-proche/"
-  kind: page
-  children: []
 - title: Actualités
   target: "/actualites/"
   kind: page

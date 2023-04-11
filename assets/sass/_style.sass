@@ -11,6 +11,7 @@ nav
     ul > li:nth-last-of-type(-n+2)
       a
         color: rgba(60,85,185,1)
+
 .block-call_to_action
   .container
     .block-content
@@ -21,3 +22,32 @@ nav
         p
           font-size: 1.5rem
           font-weight: 400
+@media (max-width: 992px)
+  .block-call_to_action
+    .container
+      .block-content
+        .call_to_action
+          h2
+            font-size: 2rem
+          p
+            font-size: 1rem
+@media (max-width: 600px)
+  .block-call_to_action
+    .container
+      .block-content
+        .call_to_action
+          h2
+            font-size: 1.5rem
+            
+main
+  .document-content
+    .block-summary
+      margin-top: 0
+      .container
+        .block-content
+          p
+            font-size: 1rem
+            font-weight: 300
+            text-align: start
+.hero--with-image
+  padding-bottom: 0 

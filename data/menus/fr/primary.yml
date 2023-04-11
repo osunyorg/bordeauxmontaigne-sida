@@ -9,6 +9,10 @@ items:
     target: "/comment-jen-parle/"
     kind: page
     children: []
+  - title: Besoin d'informations
+    target: "/comprendre/"
+    kind: page
+    children: []
 - title: Comprendre ce que j'ai
   target: "/comprendre/"
   kind: page

@@ -5,12 +5,12 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Besoin d'en parler
-    target: "/comment-jen-parle/"
-    kind: page
-    children: []
   - title: Besoin d'informations
     target: "/comprendre/"
+    kind: page
+    children: []
+  - title: Besoin d'en parler
+    target: "/comment-jen-parle/"
     kind: page
     children: []
 - title: Comprendre ce que j'ai

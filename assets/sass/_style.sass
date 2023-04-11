@@ -40,16 +40,49 @@ nav
           div
             padding: 0
 
-#block-1
+#block-1, #block-3
   .container
     .block-content
       .chapter
         flex-direction: row-reverse
-      .image-portrait
+      .image-landscape
+        width: 50%
         margin-right: calc( (100% + 4rem) / 12 * 1 + 4rem) !important
         margin-left: 0 !important
-
-
+#block-2
+  .container
+    .block-content
+      .image-landscape
+        width: 50%
+#block-4
+  .container
+      .block-content
+        .chapter
+          flex-direction: column-reverse
+          text-align: center
+        .image-landscape
+          width: 50%
+          margin: 0
+        img
+          width: 100%
+        .text
+          width: 60%
+          font-size: 2rem;
+#block-5,#block-6,#block-7
+  .container
+      .block-content
+        padding: 4rem
+        .call_to_action
+          div
+            h2
+              font-size: 2rem
+              color: $secondary
+            .description
+              align-self: end
+            .actions
+              align-items: flex-end
+.block-chapter
+  margin: 5rem 0
 //Media query
 @media (max-width: 992px)
   .page__home

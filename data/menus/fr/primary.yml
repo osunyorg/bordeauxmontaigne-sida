@@ -13,6 +13,10 @@ items:
     target: "/comment-jen-parle/"
     kind: page
     children: []
+  - title: Un proche seropositif
+    target: "/je-suis-un-proche/"
+    kind: page
+    children: []
 - title: Comprendre ce que j'ai
   target: "/comprendre/"
   kind: page

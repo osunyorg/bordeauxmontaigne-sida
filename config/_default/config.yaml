@@ -3,6 +3,7 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  plausible: sita-vih.fr
   breadcrumb:
     position:  after-hero
   posts:

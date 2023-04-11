@@ -19,15 +19,18 @@ nav
 .block-call_to_action
   .container
     .block-content
-      background-color: red
       .call_to_action
         h2
+          color: $primary
           font-weight: 500
           font-size: 3rem
         p
           color: black
           font-size: 1.5rem
           font-weight: 400
+
+
+//Media query
 @media (max-width: 992px)
   .block-call_to_action
     .container
@@ -52,8 +55,13 @@ main
       .container
         .block-content
           p
-            font-size: 1rem
+            width: 50%
+            font-size: 1.3rem
             font-weight: 300
             text-align: start
 .hero--with-image
   padding-bottom: 0 
+  .container
+    .content
+      figure
+        width: 50%

@@ -13,7 +13,7 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Un proche seropositif
+  - title: Sita' un proche concerné
     target: "/sita-un-proche-concerne/"
     kind: page
     children: []

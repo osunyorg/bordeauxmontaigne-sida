@@ -9,7 +9,7 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Besoin d'en parler
+  - title: Sita' envie d'en parler
     target: "/sita-envie-d-en-parler/"
     kind: page
     children: []

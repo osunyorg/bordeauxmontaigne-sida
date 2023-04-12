@@ -21,4 +21,8 @@ items:
   target: "/a-propos/"
   kind: page
   children: []
+- title: Questions médicales
+  target: ''
+  kind: blank
+  children: []
 

@@ -14,7 +14,7 @@ items:
     kind: page
     children: []
   - title: Un proche seropositif
-    target: "/je-suis-un-proche/"
+    target: "/sita-un-proche-concerne/"
     kind: page
     children: []
 - title: Actualités

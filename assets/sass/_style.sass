@@ -75,31 +75,22 @@ nav
           width: 60%
           font-size: 2rem;
 #block-8
+  background-color: $primary
   .container
       .block-content
-<<<<<<< HEAD
-=======
       .cards
-          grid-template-columns: repeat(2, 1fr)
+        grid-template-columns: repeat(2, 1fr)
         padding: 4rem
->>>>>>> d33165967110f47ad6f629ad28f65887f80686d7
-        .call_to_action
-          div
-            h2
-              font-size: 2rem
-              color: $tertiary
-            .description
-              align-self: end
-            .actions
-              align-items: flex-end
+        .card
+          background-color: $primary
+        .card:hover
+          background-color: $tertiary
+
+
 .block-chapter
   margin: 1rem 0
 
-.block-pages--cards .card
-  background-color: $primary
 
-.block-pages--cards 
-  background-color: $primary
 
 ///////////////////////////////////Media query///////////////////////////////////////////
 @media (min-width: 992px)
@@ -136,7 +127,7 @@ nav
           .text
             text-align: center
             font-size: 1.2rem
-          .image-landscape, .image-square
+          .image-landscape,git  .image-square
             width: 100%
   #block-7
     .container

@@ -1,14 +1,14 @@
 ---
 title: Menu principal
 items:
+- title: Sita' besoin d'informations
+  target: "/sita-besoin-d-informations/"
+  kind: page
+  children: []
 - title: Si t'as...
   target: ''
   kind: blank
   children:
-  - title: Sita' besoin d'informations
-    target: "/sita-besoin-d-informations/"
-    kind: page
-    children: []
   - title: Besoin d'en parler
     target: "/sita-envie-d-en-parler/"
     kind: page

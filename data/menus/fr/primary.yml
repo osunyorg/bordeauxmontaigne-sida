@@ -1,10 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Sita' envie d'en parler
-  target: "/sita-envie-d-en-parler/"
-  kind: page
-  children: []
 - title: Sita' des questions médicales
   target: "/sita-des-questions-medicales/"
   kind: page

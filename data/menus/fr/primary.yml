@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: Questions médicales
+  target: ''
+  kind: blank
+  children: []
 - title: Sita' besoin d'informations
   target: "/sita-besoin-d-informations/"
   kind: page
@@ -20,9 +24,5 @@ items:
 - title: À propos
   target: "/a-propos/"
   kind: page
-  children: []
-- title: Questions médicales
-  target: ''
-  kind: blank
   children: []
 

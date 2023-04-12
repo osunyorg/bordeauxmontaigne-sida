@@ -21,4 +21,8 @@ items:
   target: "/a-propos/"
   kind: page
   children: []
+- title: Sita' des questions médicales
+  target: "/sita-des-questions-medicales/"
+  kind: page
+  children: []
 

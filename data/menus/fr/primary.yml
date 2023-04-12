@@ -13,10 +13,6 @@ items:
   target: "/sita-un-proche-concerne/"
   kind: page
   children: []
-- title: Si t'as...
-  target: ''
-  kind: blank
-  children: []
 - title: Actualités
   target: "/actualites/"
   kind: page

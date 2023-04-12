@@ -1,10 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Sita' besoin d'informations
-  target: "/sita-besoin-d-informations/"
-  kind: page
-  children: []
 - title: Sita' envie d'en parler
   target: "/sita-envie-d-en-parler/"
   kind: page

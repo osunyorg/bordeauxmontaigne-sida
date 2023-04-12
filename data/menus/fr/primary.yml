@@ -10,7 +10,7 @@ items:
     kind: page
     children: []
   - title: Besoin d'en parler
-    target: "/sita-besoin-d-informations/"
+    target: "/sita-envie-d-en-parler/"
     kind: page
     children: []
   - title: Un proche seropositif

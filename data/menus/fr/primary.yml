@@ -6,7 +6,7 @@ items:
   kind: blank
   children:
   - title: Besoin d'informations
-    target: "/comprendre/"
+    target: "/sita-besoin-d-informations/"
     kind: page
     children: []
   - title: Besoin d'en parler

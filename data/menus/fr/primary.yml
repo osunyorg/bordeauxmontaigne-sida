@@ -5,7 +5,7 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Besoin d'informations
+  - title: Sita' besoin d'informations
     target: "/sita-besoin-d-informations/"
     kind: page
     children: []

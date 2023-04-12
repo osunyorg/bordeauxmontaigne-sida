@@ -43,9 +43,7 @@ nav
 #block-2,#block-6
   .container
     .block-content
-      .chapter
-        flex-direction: row-reverse
-      .image-landscape
+      .image-landscape, .image-square
         width: fit-content
         margin-right: calc( (100% + 3rem) / 12 * 1 + 3rem) !important
         margin-left: 0 !important
@@ -76,10 +74,9 @@ nav
         .text
           width: 60%
           font-size: 2rem;
-#block-8,#block-9,#block-10
+#block-8
   .container
       .block-content
-        padding: 4rem
         .call_to_action
           div
             h2
@@ -95,8 +92,68 @@ nav
 
 
 ///////////////////////////////////Media query///////////////////////////////////////////
+@media (min-width: 992px)
+  #block-2,#block-6
+    .container
+      .block-content
+        .chapter
+          flex-direction: row-reverse !important
 
-@media (max-width: 992px)
+@media (max-width: 991px)
+
+  #block-1
+    .container
+      .block-content
+          .image-landscape
+            transform: rotate(45deg)
+            padding-top: 3rem
+  #block-3
+    .container
+      .block-content
+          .image-landscape
+            transform: rotate(300deg)
+
+  #block-1,#block-5
+    .container
+      .block-content
+          .image-landscape
+            transform: rotate(45deg)
+
+  #block-2,#block-4,#block-6
+    .container
+      .block-content
+        .chapter
+          .text
+            text-align: center
+            font-size: 1.2rem
+          .image-landscape, .image-square
+            width: 100%
+  #block-7
+    .container
+      .block-content
+        .chapter
+          flex-direction: column
+          text-align: center
+        .image-landscape
+          width: 100%
+          margin: 0
+        .text
+          width: fit-content
+          font-size: 1.2rem;
+  #block-8
+    .container
+      .block-content
+        .grid
+          article
+            text-align: center
+
+  .document-content
+      .block-summary
+        .container
+          .block-content
+            .lead
+              width: 100%
+              text-align: center
   .page__home
     .block-call_to_action
       .container
@@ -111,6 +168,10 @@ nav
     .block-call_to_action
       .container
         .block-content
+          .chapter
+            flex-direction: column !important
+            .text
+              text-align: center
           .call_to_action
             h2
               font-size: 1.5rem
@@ -123,7 +184,7 @@ main
         .block-content
           p
             width: 50%
-            font-size: 1.3rem
+            font-size: 1.2rem
             font-weight: 300
             text-align: start
 
@@ -133,4 +194,4 @@ main
     .container
       .content
         figure
-          width: 50%
+          width: fit-content

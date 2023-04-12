@@ -13,16 +13,16 @@ items:
   target: "/sita-un-proche-concerne/"
   kind: page
   children: []
+- title: Sita' des questions médicales
+  target: "/sita-des-questions-medicales/"
+  kind: page
+  children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
   children: []
 - title: À propos
   target: "/a-propos/"
-  kind: page
-  children: []
-- title: Sita' des questions médicales
-  target: "/sita-des-questions-medicales/"
   kind: page
   children: []
 

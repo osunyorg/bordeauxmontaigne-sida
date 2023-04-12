@@ -1,10 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Tabous
-  target: ''
-  kind: blank
-  children: []
 - title: Questions médicales
   target: ''
   kind: blank

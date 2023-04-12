@@ -9,10 +9,6 @@ items:
   target: "/sita-envie-d-en-parler/"
   kind: page
   children: []
-- title: Sita' un proche concerné
-  target: "/sita-un-proche-concerne/"
-  kind: page
-  children: []
 - title: Sita' des questions médicales
   target: "/sita-des-questions-medicales/"
   kind: page

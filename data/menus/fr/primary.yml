@@ -9,7 +9,7 @@ items:
   target: "/sita-des-tabous/"
   kind: page
   children: []
-- title: Actualités
+- title: Articles
   target: "/actualites/"
   kind: page
   children: []

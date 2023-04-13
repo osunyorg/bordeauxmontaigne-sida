@@ -45,15 +45,25 @@ nav
     .block-content
       .image-landscape, .image-square
         width: fit-content
-        margin-right: calc( (100% + 3rem) / 12 * 1 + 3rem) !important
+        margin-right: calc( (100%) / 12 * 1) !important
         margin-left: 0 !important
 
+#block-4
+  .container
+    .block-content
+      .image-landscape, .image-square
+        width: fit-content
+        margin-left: calc( (100%) / 12 * 1) !important
+        margin-right: 0 !important
+
+
 #block-1,#block-3,#block-5
+  padding: 0
   .container
     .block-content
       .image-landscape
         margin: auto
-        width: 50%
+        width: 70%
         a
           .is-svg
             img
@@ -101,24 +111,20 @@ nav
           flex-direction: row-reverse !important
 
 @media (max-width: 991px)
-
-  #block-1
-    .container
-      .block-content
-          .image-landscape
-            transform: rotate(45deg)
-            padding-top: 3rem
   #block-3
+    padding: 2rem 0
     .container
       .block-content
           .image-landscape
             transform: rotate(300deg)
 
   #block-1,#block-5
+    padding: 2rem 0
     .container
       .block-content
           .image-landscape
             transform: rotate(45deg)
+
 
   #block-2,#block-4,#block-6
     .container
@@ -127,8 +133,10 @@ nav
           .text
             text-align: center
             font-size: 1.2rem
-          .image-landscape,git  .image-square
+          .image-landscape, .image-square
             width: 100%
+            margin: 1rem 0
+
   #block-7
     .container
       .block-content
@@ -141,12 +149,22 @@ nav
         .text
           width: fit-content
           font-size: 1.2rem;
-  #block-8
+  #block-8, #block-9
     .container
       .block-content
-        .grid
-          article
-            text-align: center
+        .cards
+          text-align: center
+          padding: 0
+          .card
+            padding: 0
+            margin-bottom: 2rem
+            .more
+              text-align: center
+              justify-content: center
+              padding-top: 0
+              margin-top: inherit
+
+
 
   .document-content
       .block-summary

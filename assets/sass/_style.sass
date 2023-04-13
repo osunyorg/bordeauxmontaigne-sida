@@ -87,14 +87,20 @@ nav
 #block-8
   background-color: $primary
   .container
-      .block-content
+    .block-content
+      .top
+        display: block
+        margin: 0
+        width: fit-content
+        h2, a
+          color: $tertiary
       .cards
         grid-template-columns: repeat(2, 1fr)
-        padding: 4rem
-        .card
+        .card, .media
           background-color: $primary
         .card:hover
           background-color: $tertiary
+
 
 
 .block-chapter

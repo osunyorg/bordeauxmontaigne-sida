@@ -42,14 +42,7 @@ nav
           div
             padding: 0
 
-#block-2,#block-6
-  background-color: $primary
-  .container
-    .block-content
-      .image-landscape, .image-square
-        width: fit-content
-        margin-right: calc( (100%) / 12 * 1) !important
-        margin-left: 0 !important
+
 
 #block-4
   .container
@@ -110,18 +103,22 @@ nav
 
 .block-chapter
   margin: 1rem 0
+.block
+  background-color: $primary
 
 
 
 ///////////////////////////////////Media query///////////////////////////////////////////
 @media (min-width: 992px)
-
-
   #block-2,#block-6
     .container
       .block-content
         .chapter
           flex-direction: row-reverse !important
+        .image-landscape, .image-square
+          width: fit-content
+          margin-right: calc( (100%) / 12 * 1) !important
+          margin-left: 0 !important
 
 @media (max-width: 991px)
   .breadcrumb-container
@@ -155,7 +152,7 @@ nav
             text-align: center
             font-size: 1.2rem
           .image-landscape, .image-square
-            width: 100%
+            width: fit-content
             margin: 1rem 0
 
   #block-8

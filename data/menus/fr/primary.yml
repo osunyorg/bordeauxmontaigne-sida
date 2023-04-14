@@ -9,10 +9,6 @@ items:
   target: "/sita-des-tabous/"
   kind: page
   children: []
-- title: Articles
-  target: "/actualites/"
-  kind: page
-  children: []
 - title: À propos
   target: "/a-propos/"
   kind: page

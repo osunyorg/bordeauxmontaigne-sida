@@ -9,12 +9,12 @@ items:
   target: "/sita-des-tabous/"
   kind: page
   children: []
-- title: À propos
-  target: "/a-propos/"
-  kind: page
-  children: []
 - title: Actualités
   target: "/contenu/"
+  kind: page
+  children: []
+- title: À propos
+  target: "/a-propos/"
   kind: page
   children: []
 

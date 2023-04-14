@@ -10,7 +10,7 @@ items:
   kind: page
   children: []
 - title: Actualités
-  target: "/contenu/"
+  target: "/actualites-1/"
   kind: page
   children: []
 - title: À propos

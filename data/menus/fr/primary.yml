@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: Sita' des questions médicales
+- title: Sita' des questions
   target: "/sita-des-questions/"
   kind: page
   children: []

@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Sita' des questions médicales
-  target: "/sita-des-questions-medicales/"
+  target: "/sita-des-questions/"
   kind: page
   children: []
 - title: Sita' des tabous

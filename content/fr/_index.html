@@ -1,7 +1,8 @@
 ---
-title: >
-  Accueil
+title: "Accueil"
 breadcrumb_title: "Accueil"
+breadcrumbs:
+  - title: "Accueil"
 url: "/"
 
 full_width: true
@@ -23,16 +24,16 @@ image:
     <p>Illustration from <a href="http://www.womanlog.com" target="_blank">womanlog.com</a></p>
 
 children:
-  - /sita-besoin-d-informations/
-  - /sita-envie-d-en-parler/
-  - /sita-un-proche-concerne/
-  - /actualites/
-  - /equipe/
-  - /organisations/
-  - /a-propos/
-  - /sita-des-questions/
-  - /sita-des-tabous/
-  - /actualites-1/
+  - "content/fr/pages/sita-besoin-d-informations/_index.html"
+  - "content/fr/pages/sita-envie-d-en-parler/_index.html"
+  - "content/fr/pages/sita-un-proche-concerne/_index.html"
+  - "content/fr/posts/_index.html"
+  - "content/fr/persons/_index.html"
+  - "content/fr/organizations/_index.html"
+  - "content/fr/pages/a-propos/_index.html"
+  - "content/fr/pages/sita-des-questions/_index.html"
+  - "content/fr/pages/sita-des-tabous/_index.html"
+  - "content/fr/pages/actualites-1/_index.html"
 meta_description: >
   
 description: >
@@ -268,24 +269,10 @@ contents:
       show_images: true
       layout: grid
       pages:
-        - page: "/sita-des-questions/"
-          slug: "/sita-des-questions/"
-      elements:
-        - title: >-
-            Sita' des questions
-          summary: >-
-            
+        - path: "/sita-des-questions/"
           slug: "sita-des-questions"
-          path: "/sita-des-questions/"
-          url: "/sita-des-questions/"
-          bodyclass: >-
-            
-          image:
-            id: "e9329ab8-61dd-4b33-bcfc-e2f8d337e1e1"
-            alt: >-
-              Illustration d'un point d'interrogation
-            credit: >-
-              <p>Illustration from womanlog.com</p>
+          file: "content/fr/pages/sita-des-questions/_index.html"
+          external: false
 
 
   - kind: block
@@ -294,81 +281,31 @@ contents:
       
     position: 11
     data:
-      page: /sita-des-tabous/
+      page: 
+        path: "/sita-des-tabous/"
+        slug: "sita-des-tabous"
+        file: "content/fr/pages/sita-des-tabous/_index.html"
       show_main_description: false
       show_descriptions: true
       show_images: true
       layout: cards
       pages:
-        - page: "/sita-des-tabous/vivre-avec-le-vih/"
-          slug: "/sita-des-tabous/vivre-avec-le-vih/"
-        - page: "/sita-des-tabous/un-proche-concerne/"
-          slug: "/sita-des-tabous/un-proche-concerne/"
-        - page: "/sita-des-tabous/en-parler/"
-          slug: "/sita-des-tabous/en-parler/"
-        - page: "/sita-des-tabous/la-vie-intime/"
-          slug: "/sita-des-tabous/la-vie-intime/"
-      elements:
-        - title: >-
-            Vivre avec le VIH
-          summary: >-
-            
+        - path: "/sita-des-tabous/vivre-avec-le-vih/"
           slug: "vivre-avec-le-vih"
-          path: "/sita-des-tabous/vivre-avec-le-vih/"
-          url: "/sita-des-tabous/vivre-avec-le-vih/"
-          bodyclass: >-
-            
-          image:
-            id: "dbdecae6-9576-4deb-9f39-4a165e2039f9"
-            alt: >-
-              
-            credit: >-
-              
-        - title: >-
-            J'ai un proche concerné
-          summary: >-
-            
+          file: "content/fr/pages/sita-des-tabous/vivre-avec-le-vih/_index.html"
+          external: false
+        - path: "/sita-des-tabous/un-proche-concerne/"
           slug: "un-proche-concerne"
-          path: "/sita-des-tabous/un-proche-concerne/"
-          url: "/sita-des-tabous/un-proche-concerne/"
-          bodyclass: >-
-            
-          image:
-            id: "f110dcee-4bc3-4702-b8ff-9078596acf45"
-            alt: >-
-              
-            credit: >-
-              
-        - title: >-
-            Parler de ma séropositivité
-          summary: >-
-            
+          file: "content/fr/pages/sita-des-tabous/un-proche-concerne/_index.html"
+          external: false
+        - path: "/sita-des-tabous/en-parler/"
           slug: "en-parler"
-          path: "/sita-des-tabous/en-parler/"
-          url: "/sita-des-tabous/en-parler/"
-          bodyclass: >-
-            
-          image:
-            id: "d39667ad-74cc-4b69-9ca5-30466a852e56"
-            alt: >-
-              
-            credit: >-
-              
-        - title: >-
-            La vie intime
-          summary: >-
-            
+          file: "content/fr/pages/sita-des-tabous/en-parler/_index.html"
+          external: false
+        - path: "/sita-des-tabous/la-vie-intime/"
           slug: "la-vie-intime"
-          path: "/sita-des-tabous/la-vie-intime/"
-          url: "/sita-des-tabous/la-vie-intime/"
-          bodyclass: >-
-            
-          image:
-            id: "14a74ae9-fc3c-4250-9650-4271fcfcaaea"
-            alt: >-
-              Femme de dos qui regarde un amas de flèches allant dans de multiples directions
-            credit: >-
-              <p>Illustration from womanlog.com</p>
+          file: "content/fr/pages/sita-des-tabous/la-vie-intime/_index.html"
+          external: false
 
 
 
@@ -420,6 +357,7 @@ contents:
           url: >-
             
 
+          external: true
           logo: "4d2600f9-96ee-48e9-8318-d5f89ceaa2d6"
         - name: >-
             Collectif SIDA 33
@@ -427,6 +365,7 @@ contents:
           url: >-
             
 
+          external: true
           logo: "41d870aa-6dc0-4eae-967c-f30f2159d8f0"
         - name: >-
             IUT Bordeaux Montaigne
@@ -434,32 +373,8 @@ contents:
           url: >-
             
 
+          external: true
           logo: "ef0e51b8-fdfe-43b6-9db8-1b31d7465e0a"
-      elements:
-        - title: >-
-            Bordeaux Ville sans SIDA
-          kind: "external"
-          url: ""
-          logo:
-            id: "4d2600f9-96ee-48e9-8318-d5f89ceaa2d6"
-        - title: >-
-            Collectif SIDA 33
-          kind: "external"
-          url: ""
-          logo:
-            id: "41d870aa-6dc0-4eae-967c-f30f2159d8f0"
-        - title: >-
-            IUT Bordeaux Montaigne
-          kind: "external"
-          url: ""
-          logo:
-            id: "ef0e51b8-fdfe-43b6-9db8-1b31d7465e0a"
-        - title: >-
-            
-          kind: "external"
-          url: ""
-          logo:
-            id: "afda0097-1eed-4b13-9462-a12e1d26c90d"
 
 
 

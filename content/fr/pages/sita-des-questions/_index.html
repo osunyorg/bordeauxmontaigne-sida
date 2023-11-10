@@ -49,13 +49,14 @@ contents:
     title: >-
       Nous sommes là pour t'aider
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 2
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: alt_background
       text: >-
@@ -81,13 +82,15 @@ contents:
     title: >-
       Vidéos
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: posts
     title: >-
       
     position: 4
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       category: "/video/sita-des-questions/"
       layout: grid
@@ -101,13 +104,15 @@ contents:
     title: >-
       Articles
     position: 2
-    level: 2
+    rank: 2
   - kind: block
     template: posts
     title: >-
       
     position: 5
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       category: "/questions/"
       layout: grid

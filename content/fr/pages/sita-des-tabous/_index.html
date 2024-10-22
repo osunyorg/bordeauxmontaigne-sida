@@ -62,15 +62,23 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Nous sommes là pour t'aider
-    slug: "nous-sommes-la-pour-t-aider"
-    position: 1
-    rank: 2
+    slug: >-
+      nous-sommes-la-pour-t-aider
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -97,10 +105,12 @@ contents:
   - kind: block
     template: pages
     title: >-
-      Sita' des tabous
+      
+    slug: >-
+      
     ranks:
-      self: 3
-      children: 4
+      self: false
+      children: 3
     data:
       page:
         path: "/sita-des-tabous/"
@@ -129,7 +139,6 @@ contents:
           slug: "la-vie-intime"
           file: "pages/sita-des-tabous/la-vie-intime/_index.html"
           external: false
-
 
 
 

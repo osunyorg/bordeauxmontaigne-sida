@@ -57,19 +57,27 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 16
+  seconds: 17
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Il peut être difficile de parler de sa séropositivité, mais nous sommes là pour t'accompagner
-    slug: "il-peut-etre-difficile-de-parler-de-sa-seropositivite-mais-nous-sommes-la-pour-t-accompagner"
-    position: 1
-    rank: 2
+    slug: >-
+      il-peut-etre-difficile-de-parler-de-sa-seropositivite-mais-nous-sommes-la-pour-t-accompagner
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -90,16 +98,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Voir tous les articles
-    slug: "voir-tous-les-articles"
-    position: 2
-    rank: 2
+    slug: >-
+      voir-tous-les-articles
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: posts
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -122,6 +137,8 @@ contents:
     template: call_to_action
     title: >-
       Tu n'es pas seul(e) !
+    slug: >-
+      tu-n-es-pas-seul-e
     ranks:
       self: 3
     data:
@@ -144,7 +161,6 @@ contents:
             https://www.sita-vih.fr/comprendre/
 
           target_blank: false
-
 
 
 

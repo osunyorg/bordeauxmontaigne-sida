@@ -5,16 +5,20 @@ items:
   target: "/sita-des-questions/"
   kind: page
   children: []
+  file: content/fr/pages/sita-des-questions/_index.html
 - title: Sita' des tabous
   target: "/sita-des-tabous/"
   kind: page
   children: []
+  file: content/fr/pages/sita-des-tabous/_index.html
 - title: Actualités
   target: "/actualites-1/"
   kind: page
   children: []
+  file: content/fr/pages/actualites-1/_index.html
 - title: À propos
   target: "/a-propos/"
   kind: page
   children: []
+  file: content/fr/pages/a-propos/_index.html
 

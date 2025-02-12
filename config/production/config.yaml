@@ -2,6 +2,11 @@
 
 baseURL: https://sita.mmibordeaux.com
 
+## OSUNY
+osuny:
+  website:
+    id: 1aa1cc9b-187e-46b7-b4a4-95becf567059
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false

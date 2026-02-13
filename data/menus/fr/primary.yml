@@ -2,31 +2,39 @@
 title: Menu principal
 items:
 - title: Sita' des questions
+  slug: sita-des-questions
   target: "/sita-des-questions/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/sita-des-questions"
   file: content/fr/pages/sita-des-questions/_index.html
 - title: Sita' des tabous
+  slug: sita-des-tabous
   target: "/sita-des-tabous/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/sita-des-tabous"
   file: content/fr/pages/sita-des-tabous/_index.html
 - title: Actualités
+  slug: actualites
   target: "/actualites-1/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/actualites-1"
   file: content/fr/pages/actualites-1/_index.html
 - title: À propos
+  slug: a-propos
   target: "/a-propos/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 

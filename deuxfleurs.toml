@@ -13,3 +13,120 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/sita-besoin-dinfo/index.html"
+to = "/sita-besoin-d-informations/"
+
+[[redirects]]
+from = "/actualites/vivre-avec-le-vih-1/index.html"
+to = "/actualites/video/vivre-avec-le-vih-1/"
+
+[[redirects]]
+from = "/contenu/index.html"
+to = "/actualites-1/"
+
+[[redirects]]
+from = "/devenir-un-allie/index.html"
+to = "/sita-un-proche-concerne/"
+
+[[redirects]]
+from = "/actualites/2023-03-31-que-faire-si-vous-avez-pris-un-risque/index.html"
+to = "/actualites/2023-03-31-la-prep-le-tpe-et-le-tasp-qu-est-ce-que-c-est/"
+
+[[redirects]]
+from = "/sita-des-questions-medicales/index.html"
+to = "/sita-des-questions/"
+
+[[redirects]]
+from = "/actualites/tabous/vie/index.html"
+to = "/actualites/tabous/vivre-avec-le-vih/"
+
+[[redirects]]
+from = "/actualites/tabous/proche/index.html"
+to = "/actualites/tabous/avoir-proche-concerne/"
+
+[[redirects]]
+from = "/actualites/intime/index.html"
+to = "/actualites/tabous/intime/"
+
+[[redirects]]
+from = "/actualites/parler-de-ma-seropositivite-1/index.html"
+to = "/actualites/video/parler-de-ma-seropositivite-1/"
+
+[[redirects]]
+from = "/actualites/avoir-un-proche-concerne/index.html"
+to = "/actualites/video/avoir-un-proche-concerne/"
+
+[[redirects]]
+from = "/sita-besoin-den-parler/index.html"
+to = "/sita-envie-d-en-parler/"
+
+[[redirects]]
+from = "/actualites/2023-03-30-comprendrel/index.html"
+to = "/actualites/2023-03-30-comprendre-transmission-vih/"
+
+[[redirects]]
+from = "/comprendre/index.html"
+to = "/sita-besoin-d-informations/"
+
+[[redirects]]
+from = "/actualites/tabous/parler/index.html"
+to = "/actualites/tabous/parler-de-ma-seropositivite/"
+
+[[redirects]]
+from = "/la-vie-continue/index.html"
+to = "/sita-des-tabous/vivre-avec-le-vih/"
+
+[[redirects]]
+from = "/en-parler/index.html"
+to = "/sita-des-tabous/en-parler/"
+
+[[redirects]]
+from = "/actualites/2023-03-30-sita-te-guide-pour-aborder-le-sujet-lorsque-tu-nes-pas-touche/index.html"
+to = "/actualites/2023-03-10-sita-te-guide-pour-aborder-le-sujet-lorsque-tu-nes-pas-touche/"
+
+[[redirects]]
+from = "/un-proche-concerne/index.html"
+to = "/sita-des-tabous/un-proche-concerne/"
+
+[[redirects]]
+from = "/comment-jen-parle/index.html"
+to = "/sita-envie-d-en-parler/"
+
+[[redirects]]
+from = "/actualites/2014-02-07-en-parler-en-couple/index.html"
+to = "/actualites/2023-03-29-en-parler-en-couple/"
+
+[[redirects]]
+from = "/actualites/proche/index.html"
+to = "/actualites/tabous/avoir-proche-concerne/"
+
+[[redirects]]
+from = "/la-vie-intime/index.html"
+to = "/sita-des-tabous/la-vie-intime/"
+
+[[redirects]]
+from = "/sita-des-tabous/la-vie-continue/index.html"
+to = "/sita-des-tabous/vivre-avec-le-vih/"
+
+[[redirects]]
+from = "/actualites/vie/index.html"
+to = "/actualites/tabous/vivre-avec-le-vih/"
+
+[[redirects]]
+from = "/je-suis-un-proche/index.html"
+to = "/sita-un-proche-concerne/"
+
+[[redirects]]
+from = "/actualites/la-vie-intime/index.html"
+to = "/actualites/video/la-vie-intime/"
+
+[[redirects]]
+from = "/actualites/2023-03-30-la-sexualite-et-le-vih-amis-ou-ennemis/index.html"
+to = "/actualites/2023-03-30-la-sexualite-et-le-vih/"
+
+[[redirects]]
+from = "/actualites/sita-des-questions/index.html"
+to = "/actualites/video/sita-des-questions/"
+
